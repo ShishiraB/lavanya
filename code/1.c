@@ -181,7 +181,8 @@ int main()
     top = -1;
     char infix[MAX_EXPR_SIZE]; printf("Enter an infix expression: ");
     gets(infix);
-    char *postfix = infixToPostfix(infix); printf("Postfix expression: %s\n", postfix); 
+    char *postfix = infixToPostfix(infix);
+    printf("Postfix expression: %s\n", postfix); 
     free(postfix);
     printf("Enter infix : "); 
     gets(infx);
